@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "CreateIngredientOrder";
+}
+
+<h2>Create Ingredient Order</h2>
+
+@*This value will update upon adding/deleting items in later checkpoints*@
+<h4>Your total is: $112.00</h4>
+<a asp-action="ListIngredients">Place Order</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Value are hardcoded for this checkpoint*@
+        <tr>
+            <td>Ham</td>
+            <td>1</td>
+            <td>$5.00</td>
+            <td>
+                <a asp-action="DeleteIngredientOrder">Delete</a> | 
+                <a asp-action="UpdateIngredientOrder">Update</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Cheese</td>
+            <td>20</td>
+            <td>$80.00</td>
+            <td>
+                <a asp-action="DeleteIngredientOrder">Delete</a> |
+                <a asp-action="UpdateIngredientOrder">Update</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Bread</td>
+            <td>9</td>
+            <td>$27.00</td>
+            <td>
+                <a asp-action="DeleteIngredientOrder">Delete</a> |
+                <a asp-action="UpdateIngredientOrder">Update</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "ListIngredients";
+}
+
+<h2>ListIngredients</h2>
+<h4><a asp-action="CreateIngredientOrder">Create a new order</a></h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>In Stock</th>
+            <th>Individual Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Value are hardcoded for this checkpoint*@
+        <tr>
+            <td>Ham</td>
+            <td>4</td>
+            <td>$5.00</td>
+            <td><a asp-action="CreateIngredientOrder">Order More</a></td>
+        </tr>
+        <tr>
+            <td>Cheese</td>
+            <td>15</td>
+            <td>$4.00</td>
+            <td><a asp-action="CreateIngredientOrder">Order More</a></td>
+        </tr>
+        <tr>
+            <td>Bread</td>
+            <td>12</td>
+            <td>$3.00</td>
+            <td><a asp-action="CreateIngredientOrder">Order More</a></td>
+        </tr>
+    </tbody>
+</table>

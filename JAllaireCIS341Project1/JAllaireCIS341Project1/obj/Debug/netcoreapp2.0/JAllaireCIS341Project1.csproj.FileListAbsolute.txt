@@ -1,0 +1,11 @@
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\obj\Debug\netcoreapp2.0\JAllaireCIS341Project1.csprojAssemblyReference.cache
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\obj\Debug\netcoreapp2.0\JAllaireCIS341Project1.csproj.CoreCompileInputs.cache
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\obj\Debug\netcoreapp2.0\JAllaireCIS341Project1.AssemblyInfoInputs.cache
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\obj\Debug\netcoreapp2.0\JAllaireCIS341Project1.AssemblyInfo.cs
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\bin\Debug\netcoreapp2.0\JAllaireCIS341Project1.deps.json
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\bin\Debug\netcoreapp2.0\JAllaireCIS341Project1.runtimeconfig.json
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\bin\Debug\netcoreapp2.0\JAllaireCIS341Project1.runtimeconfig.dev.json
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\bin\Debug\netcoreapp2.0\JAllaireCIS341Project1.dll
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\bin\Debug\netcoreapp2.0\JAllaireCIS341Project1.pdb
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\obj\Debug\netcoreapp2.0\JAllaireCIS341Project1.dll
+E:\CIS 341\Assignments\Project1\JAllaireCIS341Project1\JAllaireCIS341Project1\obj\Debug\netcoreapp2.0\JAllaireCIS341Project1.pdb

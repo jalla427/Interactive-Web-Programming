@@ -1,0 +1,41 @@
+﻿@model List<MenuItem>
+
+<h2>Menu Items</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameForInnerType((MenuItem m) => m.Name)
+            </th>
+            <th>
+                @Html.DisplayNameForInnerType((MenuItem m) => m.Description)
+            </th>
+            <th>
+                @Html.DisplayNameForInnerType((MenuItem m) => m.Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (MenuItem f in Model)
+            {
+                <tr>
+                    <td>
+                        @f.Name
+                    </td>
+                    <td>
+                        @f.Description
+                    </td>
+                    <td>
+                        @Html.DisplayFor(p => f.Price)
+                    </td>
+                    <td>
+                        <a asp-action=add asp-route-id="@f.MenuItemID">Add to order</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

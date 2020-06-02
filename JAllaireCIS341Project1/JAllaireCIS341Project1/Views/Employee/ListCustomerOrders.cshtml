@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "ListCustomerOrders";
+}
+
+<h2>Customer Orders</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer Email</th>
+            <th>Order Date</th>
+            <th>Order Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Value are hardcoded for this checkpoint*@
+        <tr>
+            <td>Robert@mail.com</td>
+            <td>7/1/1863</td>
+            <td>Completed</td>
+            <td>
+                <a asp-action="UpdateCustomerOrders">Update</a> | 
+                <a asp-action="DeleteCustomerOrders">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Fusajiro@mail.com</td>
+            <td>7/15/1983</td>
+            <td>In Progress</td>
+            <td>
+                <a asp-action="UpdateCustomerOrders">Update</a> | 
+                <a asp-action="DeleteCustomerOrders">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Will@mail.com</td>
+            <td>4/23/1616</td>
+            <td>Completed</td>
+            <td>
+                <a asp-action="UpdateCustomerOrders">Update</a> | 
+                <a asp-action="DeleteCustomerOrders">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

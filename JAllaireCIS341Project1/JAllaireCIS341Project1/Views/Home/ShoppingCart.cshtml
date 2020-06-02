@@ -1,0 +1,45 @@
+﻿@model List<Cart>
+
+<h2>Shopping Cart</h2>
+<a asp-action="PlaceOrder">Place Order</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Price per unit
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (Cart c in Model)
+            {
+                foreach (CartItem i in c.CartItems)
+                {
+                    <tr>
+                        <td>
+                            @i.MenuItem.Name
+                        </td>
+                        <td>
+                            @i.Quantity
+                        </td>
+                        <td>
+                            @Html.DisplayFor(p => i.MenuItem.Price)
+                        </td>
+                        <td>
+                            <a asp-action=delete asp-route-id="@i.CartItemID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        }
+    </tbody>
+</table>
